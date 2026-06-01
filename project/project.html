@@ -1,0 +1,287 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Inter;
+        color: #041627;
+      }
+
+      .section {
+        margin: 40px 148px;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 32px;
+      }
+
+      .section h1 {
+        font-size: 42px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+
+      .section p {
+        font-size: 16px;
+        color: #555;
+        max-width: 800px;
+        margin-bottom: 40px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        transition: 0.3s;
+        background: #fff;
+      }
+
+      .card:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .tag {
+        font-size: 12px;
+        font-weight: 700;
+        background: #e0ecff;
+        padding: 6px 10px;
+        display: inline-block;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+
+      .card h3 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #0055aa;
+      }
+
+      .info {
+        margin-bottom: 15px;
+      }
+
+      .info strong {
+        display: block;
+        font-size: 12px;
+        color: gray;
+        margin-bottom: 2px;
+      }
+
+      ul {
+        padding-left: 18px;
+      }
+
+      li {
+        margin-bottom: 6px;
+      }
+
+      @media (max-width: 900px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <div class="logo">OMBRIC</div>
+        <nav class="nav-links">
+          <a href="/index.html">Home</a>
+          <a href="/institues/institute.html">Institute</a>
+          <a href="/project/project.html">Project</a>
+          <a href="/publication/publication.html">Publication</a>
+          <a href="/fieldtrip/fieldtrip.html">Fieldtrip</a>
+          <a href="/gallery/gallery.html">Gallery</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section">
+      <h1>Participating Institutes & Projects</h1>
+      <p>
+        The Odisha Marine Biotechnology Research & Innovation Corridor integrates
+        elite academic institutions to pioneer oceanic research and biotech advancements.
+      </p>
+
+      <div class="grid">
+
+        <!-- CARD 1 -->
+        <div class="card">
+          <div class="tag">PROJECT 01</div>
+          <h3>OMBRIC-ILS Centre of Excellence in Marine Biotechnology</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            BRIC - Institute of Life Sciences
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Dr. Sanjeeb Kumar Sahoo
+          </div>
+
+          <ul>
+            <li>Biorepository for marine organisms</li>
+            <li>Marine bioresource atlas using genomics</li>
+            <li>Support research & startups</li>
+          </ul>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+          <div class="tag">PROJECT 02</div>
+          <h3>Diversity & Bioprospecting of Marine Flora</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            IISER Berhampur
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Dr. Jose Sebastian
+          </div>
+
+          <ul>
+            <li>Discovery of bioactive compounds</li>
+            <li>Gene-level research</li>
+            <li>Product optimization research</li>
+          </ul>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+          <div class="tag">PROJECT 03</div>
+          <h3>COSMOS – Coastal Mapping & Monitoring</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            IIT Bhubaneswar
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Dr. Syed Hilal Farooq
+          </div>
+
+          <ul>
+            <li>Marine bioresource mapping</li>
+            <li>Ecosystem health tracking</li>
+            <li>Capacity building programs</li>
+          </ul>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+          <div class="tag">PROJECT 04</div>
+          <h3>Marine Microbial Resources Research</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            NIT Rourkela
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Prof. Surajit Das
+          </div>
+
+          <ul>
+            <li>Microbial analysis</li>
+            <li>Novel enzyme discovery</li>
+            <li>Environmental applications</li>
+          </ul>
+        </div>
+
+        <!-- CARD 05 -->
+        <div class="card">
+          <div class="tag">PROJECT 05</div>
+          <h3>North Odisha-Marine Bioresources Utilization & Convergence (NO-MBUCRC)</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            Fakir Mohan University
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Prof. Prakash Chandra Mishra
+          </div>
+
+          <ul>
+            <li>Indian horseshoe crabs breeding</li>
+            <li>Bioactive compounds from coastal fauna</li>
+          </ul>
+        </div>
+
+        <!-- CARD 06 -->
+        <div class="card">
+          <div class="tag">PROJECT 06</div>
+          <h3>Centre for Odisha Marine Biodiversity and Biotech Innovation (COMBBI)</h3>
+
+          <div class="info">
+            <strong>Institution</strong>
+            Berhampur University
+          </div>
+
+          <div class="info">
+            <strong>Coordinator</strong>
+            Dr. Mrutyunjay Jena
+          </div>
+
+          <ul>
+            <li>Cyanobacteria germplasm repository</li>
+            <li>Biodiversity mapping of marine fishes</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3 class="footer-logo">OMBRIC</h3>
+          <p class="footer-text">Odisha Marine Biotechnology Research & Innovation Corridor supporting scientific advancement and innovation.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Research Portal</a></li>
+            <li><a href="#">Institutional Access</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 OMBRIC. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
